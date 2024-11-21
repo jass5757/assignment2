@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-family: Open Sans;
+}
+/* Header styling */
+header {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, purple);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+.body{
+    background-color: bisque;
+}
+/* Section styling */
+main {
+    margin: 2rem;
+}
+
+.about-candy {
+    text-align: center;
+}
+
+/* Media section */
+.media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.media img {
+    width: 70%;
+    height: 20%;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+/* Footer styling */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.contact-form input, .contact-form textarea, .contact-form button {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    width: 80%;
+}
